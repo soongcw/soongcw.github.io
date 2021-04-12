@@ -29,4 +29,4 @@ function GetBooking(){
             row.insertCell(2).innerHTML = gEmail;
             row.insertCell(3).innerHTML = gPax;
             row.insertCell(4).innerHTML = gRemarks;
-            row.insertCell(5).innerHTML = "TBC";
+            row.insertCell(5).innerHTML = "<button id="+class btn-danger">delete</button;
