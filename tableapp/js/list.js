@@ -17,12 +17,12 @@ function GetBooking(){
             bookingNameList.deleteRow(k);
         }
 
-        for(let i = 0; i < json.bookingitems.length; i++){
-            let gName = json.bookingitems[i].name;
-            let gEmail = json.bookingitems[i].email;
-            let gPax = json.bookingitems[i].pax;
-            let gRemarks = json.bookingitems[i].remarks;
-            let gId = json.bookingitems[i].id;
+        for(let i = 0; i < json.bookingitem.length; i++){
+            let gName = json.bookingitem[i].name;
+            let gEmail = json.bookingitem[i].email;
+            let gPax = json.bookingitem[i].pax;
+            let gRemarks = json.bookingitem[i].remarks;
+            let gId = json.bookingitem[i].id;
 
             let row = bookingNameList.insertRow(bookingNameList.rows.length);
             row.insertCell(0).innerHTML = gId;
