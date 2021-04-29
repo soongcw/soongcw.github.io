@@ -1,4 +1,4 @@
-let bookNowBtn = document.getElementById("bookNow");
+let bookNowBtn = document.getElementById("book Now");
 bookNowBtn.addEventListener("click", function () {
     let userName = document.getElementById("userName");
     let userNameVal = userName.value;
